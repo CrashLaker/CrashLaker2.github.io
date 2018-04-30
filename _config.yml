@@ -6,8 +6,8 @@
 title: Leonids
 email: zourenyuan@gmail.com
 description: A simple and awesome blog theme powered by jekyll.
-url: https://renyuanz.github.io/leonids # the base hostname & protocol for your site
-keywords: ["Programming", "PHP", "Ruby"]
+url: https://CrashLaker.github.io/ # the base hostname & protocol for your site
+keywords: ["Programming", "PHP", "Parallel Programming", "Sysadmin", "Distributed Programming"]
 
 #
 ###################################
@@ -33,26 +33,26 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
-  avatar: leonids-logo.png
-  job: "PHP & Ruby Developer"
-  bio: "A backend developer who loves design awesome things. Working for RendezvousCheznous atm in Marseille, France."
-  email: zourenyuan@gmail.com
-  disqus-shortname: renyuanzblog
-  twitter: renyuan814 #username
+  name: Carlos Aguni
+  avatar: crashlaker-logo.png
+  job: "Master's Candidate & High Performance Computing Deploy Specialist"
+  bio: "Highly motivated self-taught IT analyst. Always learning and ready to explore new skills. An eternal apprentice."
+  email: agunicat@gmail.com 
+  disqus-shortname: #renyuanzblog
+  twitter: crashlaker #renyuan814 #username
   facebook: #username
   google:
     plus: #username
-    analytics: UA-62251910-2
+    analytics: #UA-62251910-2
     verify:
     ad-client:
     ad-slot:
   bing-verify:
-  github: renyuanz #username
+  github: CrashLaker #renyuanz #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: renyuan-zou-69b7038a #username
+  linkedin: carlos-aguni-b42032100 #renyuan-zou-69b7038a #username
   xing: #username
-  instagram: #username
+  instagram: carlosaguni #username
   lastfm: #username
   tumblr: #username
   pinterest: #username
