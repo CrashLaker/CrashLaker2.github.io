@@ -6,7 +6,7 @@
 title: CA - About me
 email: #zourenyuan@gmail.com
 description: #A simple and awesome blog theme powered by jekyll.
-url: https://CrashLaker.github.io/ # the base hostname & protocol for your site
+url: https://CrashLaker.github.io # the base hostname & protocol for your site
 keywords: ["Programming", "PHP", "Parallel Programming", "Sysadmin", "Distributed Programming"]
 
 #
