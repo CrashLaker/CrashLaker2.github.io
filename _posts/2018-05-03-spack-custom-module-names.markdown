@@ -9,8 +9,12 @@ date: "2018-05-03 20:12:20 -0300"
 Compiling on SPACK with custom dependencies  
 
 Spack [bug](http://spack.readthedocs.io/en/latest/known_issues.html#default-variants-are-not-taken-into-account-during-concretization) reported  
+
 ---
-`spack install --use-cache namd@2.12 %gcc@7.3.0 fftw=3 interface=python +mpi ^openmpi@3.0.0 %gcc@7.3.0~cuda fabrics=pmi,verbs ~java schedulers=slurm ~sqlite3~thread_multiple~ucx+vt ^hwloc@1.11.9~cairo~cuda+libxml2+pci+shared arch=linux-centos7-x86_64`  
+
+```
+spack install --use-cache namd@2.12 %gcc@7.3.0 fftw=3 interface=python +mpi ^openmpi@3.0.0 %gcc@7.3.0~cuda fabrics=pmi,verbs ~java schedulers=slurm ~sqlite3~thread_multiple~ucx+vt ^hwloc@1.11.9~cairo~cuda+libxml2+pci+shared arch=linux-centos7-x86_64
+```  
 
 `spack module refresh --delete-tree -m tcl -y`  
 ```
