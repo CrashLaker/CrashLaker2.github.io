@@ -38,8 +38,8 @@ modules:
         suffixes:
             'interface=python': 'tcl'
     gromacs:
-      suffixes:
-        '~cuda~double+epyc~mpi~plumed+shared': epyc
+        suffixes:
+          '~cuda~double+epyc~mpi~plumed+shared': epyc
 ```
 
 `spack module refresh --delete-tree -m tcl -y`  
