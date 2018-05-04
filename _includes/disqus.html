@@ -9,6 +9,12 @@
 		 this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 	 };
 	 */
+        var disqus_config = function () {
+            // we are using document.location.* here because Jekyll code does not work well in JS code.
+            this.page.url = document.location.href;
+            this.page.identifier = document.location.pathname;
+          };
+
 		(function() { // DON'T EDIT BELOW THIS LINE
 				var d = document, s = d.createElement('script');
 				s.src = '//crashlaker.disqus.com/embed.js';
