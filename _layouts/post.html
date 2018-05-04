@@ -39,7 +39,12 @@ layout: default
     {{ content }}
   </article>
 </div>
-                          
+
+ {% if site.owner.disqus-shortname and page.comments == true %}
+<div id="disqus_thread"></div>
+{% include disqus.html %}
+{% endif %}                         
+
 <div class="share-buttons">
   <h6>Share on: </h6>
   <ul>
@@ -60,9 +65,4 @@ layout: default
     </li>
   </ul>
 </div><!-- end share-buttons -->
-LAL<hr>
-{% if site.owner.disqus-shortname and page.comments == true %}
-LOL<hr>
-<div id="disqus_thread"></div>
-{% include disqus.html %}
-{% endif %}
+
