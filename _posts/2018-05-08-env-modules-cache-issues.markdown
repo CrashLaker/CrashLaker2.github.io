@@ -12,7 +12,7 @@ It's your cache directory!
 
 So you have 3 alternatives:
 1. Erase your cache directory
-    `rm -rf ~/.lmod.d/cache`
+    `rm -rf ~/.lmod.d/.cache`
 2. `module --ignore_cache av`
 3. `export LMOD_IGNORE_CACHE=1`
 
