@@ -35,7 +35,7 @@ wubl2of        ^fftw@3.3.7+double+float~fma+long_double+mpi~openmp~pfft_patches~
 spack install --use-cache namd@2.12 %gcc@7.3.0 fftw=3 interface=python +mpi ^openmpi@3.0.0 %gcc@7.3.0~cuda fabrics=pmi,verbs ~java schedulers=slurm ~sqlite3~thread_multiple~ucx+vt ^hwloc@1.11.9~cairo~cuda+libxml2+pci+shared arch=linux-centos7-x86_64
 ```  
 
-`spack module refresh --delete-tree -m tcl -y`  
+`spack module refresh --delete-tree -m tcl -y namd`  
 ```
 ==> Error: Name clashes detected in module files:
 
