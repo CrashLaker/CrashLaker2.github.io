@@ -61,7 +61,7 @@ modules:
           '~cuda~double+epyc~mpi~plumed+shared': epyc
 ```
 
-`spack module refresh --delete-tree -m tcl -y`  
+`spack module refresh --delete-tree -m tcl -y namd`  
 `module av`  
 ```
 namd/2.12-gcc-7.3.0-tcl
