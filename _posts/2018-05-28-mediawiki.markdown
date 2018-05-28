@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "Install MediaWiki 1.30 + VisualEditor 1.30 on CentOS 7.5"
-categories: [modules]
+categories: [recipe]
 comments: true
 date: "2018-05-28 17:03:20 -0300"
 ---
 
 # Install MediaWiki 1.30 Centos 7.5 LAMPS VisualEditor 1.30
-#blog
 
 ## Installing LAMPS (MariaDB, PHP 7.2)
 ```
