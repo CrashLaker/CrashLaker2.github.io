@@ -180,3 +180,17 @@ ref:
 [How to Install VisualEditor for MediaWiki on CentOS 7](https://www.howtoforge.com/tutorial/how-to-install-visualeditor-for-mediawiki-on-centos-7/)
 
 
+
+## Other useful extensions
+Mind checking:
+* PdfHandler
+* MediaViewer
+* SimpleBatchUpload
+
+## Known caveats
+Remember to disable SELINUX  
+`chmod -R 777 images` for file upload 
+
+
+
+
