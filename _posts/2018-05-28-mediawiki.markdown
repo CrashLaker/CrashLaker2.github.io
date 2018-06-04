@@ -186,6 +186,7 @@ Mind checking:
 * PdfHandler
 * MediaViewer
 * SimpleBatchUpload
+* SyntaxHighlight_GeSHi
 
 ## Known caveats
 Remember to disable SELINUX  
